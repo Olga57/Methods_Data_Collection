@@ -5,7 +5,7 @@ import requests
 import json
 url = 'https://api.github.com'
 username = 'Olga57'
-token = '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'
+token = ''
 r = requests.get(f'https://api.github.com/users/{username}/repos')
 print("Done")
 with open('data.json', 'w') as f:
